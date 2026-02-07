@@ -20,6 +20,19 @@ A responsive e-commerce web application built using **React.js**, featuring auth
 - CSS
 - Git & GitHub
 
+## 🔗 Live Demo
+https://mallikarjuna-ecommerce-app.netlify.app
+
+## 📸 Screenshots
+(Add screenshots later)
+
+## 🚀 Future Improvements
+- Payment integration
+- Wishlist
+- Backend integration
+- Admin dashboard
+
+
 ## 📦 Installation & Setup
 ```bash
 git clone https://github.com/Mallikarjuna-Jamalpuri/Ecommerce-App.git
