@@ -2,8 +2,6 @@
 
 A responsive e-commerce web application built using **React.js**, featuring authentication, product listing, cart management, and protected routes.
 
-## 🔗 Live Demo
-👉 https://glittery-puffpuff-994bb9.netlify.app
 
 ## 🚀 Features
 - User Authentication (Login / Logout)
