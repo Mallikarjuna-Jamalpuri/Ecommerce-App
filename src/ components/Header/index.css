@@ -1,0 +1,29 @@
+.nav-container{
+    background-color: rgba(0, 0, 0, 0.79);
+    min-width: 100%;
+}
+
+.nav-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-list-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 270px;
+    list-style-type: none;
+}
+.nav-list-items a {
+    text-decoration: none;
+    color: white;
+}
+.website-logo{
+    width: 110px;
+    height: 75px;
+    padding: 7px;
+}
+.list-item  {
+    margin: 10px;
+}

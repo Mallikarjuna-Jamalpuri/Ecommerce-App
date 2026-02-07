@@ -1,0 +1,38 @@
+.login-form-container {
+    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeQFdUzr_h4YAgYjMPOnuY9qeXGi0OfZkAQ&s");*/
+    /*background-size: cover;*/
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.search-input{
+    padding: 5px;
+}
+
+.input-container{
+    display:  flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-label{
+    padding-right:  10px;
+}
+
+.button{
+    background-color: #0055ff;
+    color: rgba(255, 255, 255, 0.82);
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    padding: 6px 12px;
+    border:  none;
+    border-radius: 5px;
+}
+
+.button-container{
+    display: flex;
+    justify-content:  space-evenly;
+    align-items: center;
+}

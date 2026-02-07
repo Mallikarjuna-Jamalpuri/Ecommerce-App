@@ -1,0 +1,28 @@
+.products-card {
+    background-color: lightgray;
+}
+.products-list-heading {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight:  bold;
+}
+.products-list{
+    display:  flex;
+    justify-content: center;
+    flex-wrap:  wrap;
+    list-style-type: none;
+
+    width: 100%;
+}
+.products-list li {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.products-list li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}

@@ -1,0 +1,17 @@
+.product-image {
+    width: 150px;
+    height: 150px;
+}
+
+.product-list-items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    min-width: 300px;
+}
+.buy-button{
+    width: 150px;
+    font-weight: bold;
+}
