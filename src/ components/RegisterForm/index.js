@@ -1,6 +1,8 @@
 import {Component} from 'react'
-import './index.css'
+
 import {Navigate} from "react-router-dom";
+
+import './index.css'
 
 class RegisterForm extends Component {
     state = {
@@ -8,6 +10,7 @@ class RegisterForm extends Component {
         lastNameInput: '',
         emailInput: '',
         passwordInput: '',
+        isSubmitted: false,
     }
 
     onChangeFirstNameInput = event => {
@@ -26,6 +29,7 @@ class RegisterForm extends Component {
     changeSubmittedStatus = () => {
         this.setState({isSubmitted: true})
     }
+
 
 
     onSubmitForm =async event => {
@@ -51,6 +55,7 @@ class RegisterForm extends Component {
 
             if (response.ok) {
                 localStorage.setItem('registeredUser', JSON.stringify(data))
+                this.changeSubmittedStatus()
             }
         }
     }
@@ -85,7 +90,7 @@ class RegisterForm extends Component {
                         <input placeholder="PASSWORD" id="password" type="password" className="form-control" value={passwordInput} onChange={this.onChangePasswordInput} />
                     </div>
                     <div className="button-containe">
-                        <button className="btn btn-primary" type="submit">Register</button>
+                        <button className="btn btn-primary" onClick={this.onRedirectToLogin} type="submit">Register</button>
                     </div>
 
                 </form>

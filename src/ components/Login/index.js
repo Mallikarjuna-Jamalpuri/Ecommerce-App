@@ -12,12 +12,6 @@ class Login extends Component{
 
     }
 
-   /* onRedirectToRegisterForm = () => {
-        this.setState({redirectToRegisterForm: true})
-    } */
-
-
-
     submitForm =async (event) => {
         event.preventDefault();
 
